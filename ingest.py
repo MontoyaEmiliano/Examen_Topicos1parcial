@@ -162,4 +162,3 @@ if __name__ == "__main__":
                 print(f"ID: {record[0]}, Canción: {record[1]}, Artista: {record[2]}")
     else:
         print(f"Archivo {csv_file} no encontrado.")
-        print("Asegúrate de que el archivo CSV esté en el mismo directorio que ingest.py")
