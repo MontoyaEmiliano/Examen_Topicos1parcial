@@ -7,7 +7,7 @@ class Track(Base):
     __tablename__ = "tracks"
     track_id = Column(String, primary_key=True, index=True)
     track_name = Column(String)
-    artists = Column(String)
+    artists = Column(String)  # Asegúrate que sea 'artists' no 'artists'
     album = Column(String)
     release_year = Column(Integer)
     duration_ms = Column(Integer)
